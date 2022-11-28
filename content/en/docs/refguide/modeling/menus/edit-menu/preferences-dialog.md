@@ -49,6 +49,12 @@ This is the directory in which the Java Development Kit (JDK) is located on the 
 
 The JDK is necessary to run Mendix applications, because the Mendix Runtime is written in Java.
 
+### 2.4 Disk Location
+
+#### 2.4.1 Default app directory
+
+This is the default directory that Studio Pro creates your apps in. The setting is automatically updated when a new app is created in a different location.
+
 #### 2.3.2 Enable Run Optimizations
 
 Enable this setting to increase the speed at which a running application is updated after changes have been made in Studio Pro. When only pages, layouts or snippets have been changed, an entire restart of the application is skipped to decrease deployment time. Also, no Java compilation is performed when no relevant files have changed.
